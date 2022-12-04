@@ -1,0 +1,7 @@
+echo "# data_studies" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/eduardoscavalcanti/data_studies.git
+git push -u origin main
